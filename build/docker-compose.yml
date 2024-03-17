@@ -1,0 +1,8 @@
+version: "3.0"
+services:
+  nginx:
+    image: app:v1
+    ports:
+      - "80:80"
+    container_name: test1
+
